@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de adivinhar</title> 
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+       <h1>Adivinhe o número</h1>
+    </header>
+    <section>
+        <div id="status-bar">
+            <p id="status"> &spades; &spades; &spades; &spades; &spades; &spades; &spades; &spades; &spades; &spades;</p>
+
+        </div>
+        <div id="numero">
+            <p>Número secreto entre 1 e 100. </p>
+            <button id="btIniciar">
+                <span class="icon"><i class="bi bi-play"></i></span>
+                <span class="text">iniciar</span>
+            </button><br><br>
+            Palpite: <input type="number" id="num1"><br><br>           
+            <button id="btChutar">
+                <span class="icon"><i class="bi bi-bullseye"></i></span>
+                <span class="text">Chutar</span>
+            </button>
+            
+        </div>
+        <div id="resultado">
+            <p><strong>Histórico de Palpites</strong></p>
+            <p id="txtResultado">...</p>
+        </div>
+
+    </section>
+    <footer>
+      <p id="txtRodape">Desenvolvido na displina WEB1</p>
+    </footer>
+
+    <script src="interacao.js"></script>
+</body>
+</html>

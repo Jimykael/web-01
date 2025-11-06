@@ -1,5 +1,5 @@
 let numeroSecreto;
-let vidas;
+let vidas;   
 
 let numeroChute = document.getElementById("num1");
 let resultado = document.getElementById("txtResultado");
@@ -60,7 +60,7 @@ function chutou() {
 function numvidas() {
     txtStatus.innerHTML = "";
     for (let i = 1; i <= vidas; i++) {
-        txtStatus.innerHTML += "+ "
+        txtStatus.innerHTML += "&spades; "
     }
     if (vidas == 0) {
         resultado.innerHTML += "Você perdeu!"
