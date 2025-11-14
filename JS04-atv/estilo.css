@@ -1,0 +1,148 @@
+/* ===== Fundo geral ===== */
+body {
+    background: url("assets/Escola.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Título ===== */
+h1 {
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 4px #00000030;
+    font-size: 36px;
+}
+
+/* ===== Painel principal ===== */
+section {
+    background: url("https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"); /* madeira clara */
+    background-size: cover;
+    width: 430px;
+    min-height: 420px;
+    padding: 12px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00000050;
+    border: 3px solid #5f3a1e;
+}
+
+/* ===== Caixa da imagem ===== */
+#box-imagem {
+    background: url("assets/bonecoBG.jpg");
+    border: 3px solid #8b5a2b;
+    border-radius: 12px;
+    height: 150px;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 10px #00000030;
+}
+
+/* ===== Botão iniciar ===== */
+
+#box-iniciar {
+    height: 70px;                 /* aumenta o espaço do botão */
+    display: flex;
+    justify-content: center;      /* centraliza horizontalmente */
+    align-items: center;          /* centraliza verticalmente */
+    margin: 10px auto;            /* centraliza a caixa inteira */
+    width: 95%;
+}
+
+#box-iniciar img {
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+#box-iniciar img:hover {
+    transform: scale(1.07);
+}
+
+/* ===== Palavra ===== */
+#box-palavra {
+    background: url("assets/box.jpg");
+    border: 3px solid #8b5a2b;
+    border-radius: 12px;
+    height: 60px;
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 10px #00000030;
+}
+
+#palavra {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* ===== Teclado ===== */
+#box-teclado {
+    background: url("assets/bonecoBG.jpg");
+    border: 3px solid #8b5a2b;
+    border-radius: 12px;
+    width: 95%;
+    min-height: 120px;
+    margin: auto;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    box-shadow: inset 0 0 10px #00000030;
+}
+
+/* ===== BOTÕES DAS LETRAS – estilo madeira polida ===== */
+.tecla {
+    background: url("https://i.imgur.com/pQk2BPM.jpg");  /* textura madeira */
+    background-size: cover;
+    border: 2px solid #5f3a1e;
+    border-radius: 8px;
+    color: #fdf4dc;
+    font-size: 22px;
+    padding: 12px 16px;
+    min-width: 45px;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 3px 0 #3a2313;
+}
+
+.tecla:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 0 #3a2313;
+}
+
+.tecla:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 0 #3a2313;
+}
+
+.tecla:disabled {
+    background: #d5c5a7;
+    color: #fff;
+    border: 2px solid #6b5b47;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* ===== Imagem do boneco ===== */
+#img-menino {
+    height: 100%;
+    transition: 0.3s ease;
+}
+
+/* ===== Rodapé ===== */
+#txtRodape {
+    text-align: center;
+    margin-top: 20px;
+    color: #06001a;
+    font-weight: bold ;
+    opacity: 1;
+}
